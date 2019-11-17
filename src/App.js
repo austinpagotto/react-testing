@@ -1,15 +1,12 @@
 import React from "react";
 import "./App.css";
-import Footer from './components/Footer'
-import Header from './components/Header'
-import MainContent from './components/MainContent'
+import CheckBoxes from './components/CheckBoxes'
+
 
 function App() {
   return (
     <div>
-      <Header/>
-      <MainContent/> 
-      <Footer/>
+      <CheckBoxes />
     </div>
   );
 }
